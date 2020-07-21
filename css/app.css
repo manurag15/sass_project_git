@@ -1,37 +1,92 @@
+.row {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  align-items: center; }
+
+.row::after {
+  display: table;
+  clear: both; }
+
+.logo {
+  max-width: 100%; }
+
 .col-1 {
-  max-width: 8.33%; }
+  width: 8.33%; }
 
 .col-2 {
-  max-width: 16.66%; }
+  width: 16.66%; }
 
 .col-3 {
-  max-width: 25%; }
+  width: 25%; }
 
 .col-4 {
-  max-width: 33.33%; }
+  width: 33.33%; }
 
 .col-5 {
-  max-width: 41.66%; }
+  width: 41.66%; }
 
 .col-6 {
-  max-width: 50%; }
+  width: 50%; }
 
 .col-7 {
-  max-width: 58.33%; }
+  width: 58.33%; }
 
 .col-8 {
-  max-width: 66.66%; }
+  width: 66.66%; }
 
 .col-9 {
-  max-width: 75%; }
+  width: 75%; }
 
 .col-10 {
-  max-width: 83.33%; }
+  width: 83.33%; }
 
 .col-11 {
-  max-width: 91.66%; }
+  width: 91.66%; }
 
 .col-12 {
-  max-width: 100%; }
+  width: 100%; }
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block; }
+
+.banner-container {
+  padding: 40px 0;
+  background-color: #212630;
+  color: #FFF; }
+
+.nav-header {
+  padding: 0 0 10px;
+  background-color: #FFF; }
+  .nav-header .container {
+    padding: 10px 15px 0;
+    margin-right: auto;
+    margin-left: auto; }
+
+.nav-menu {
+  float: right;
+  margin: 5px 0 0; }
+  .nav-menu .nav-menu-list {
+    font-size: 1.25rem;
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+    .nav-menu .nav-menu-list .nav-item {
+      display: inline-block;
+      margin: 0;
+      vertical-align: top; }
+      .nav-menu .nav-menu-list .nav-item .nav-a {
+        display: block;
+        padding: 5px 10px;
+        text-decoration: none;
+        color: #212630;
+        border: 1px solid transparent;
+        text-transform: uppercase; }
+        .nav-menu .nav-menu-list .nav-item .nav-a:hover {
+          color: red; }
 
 /*# sourceMappingURL=app.css.map */
